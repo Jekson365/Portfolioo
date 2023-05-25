@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { AppBar, Box, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Button, Toolbar, Typography } from "@mui/material";
 
 export const CustomNavBar = styled(Box)({
   margin: "0 auto",
@@ -23,3 +23,14 @@ export const NavIconCover = styled(Box)({
   alignItems: "center",
   borderRadius: "50%",
 });
+
+export const CustomButton = styled(Button)({
+  background: "#ff5277",
+  color: "white",
+  borderRadius: "3px",
+  fontSize: "10px",
+  padding: "5px 10px",
+  '&:hover': {
+    color: "#ff5277"
+  }
+})
