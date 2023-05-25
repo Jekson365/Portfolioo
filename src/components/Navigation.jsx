@@ -47,20 +47,7 @@ export const Navigation = () => {
               >
                 <Typography color={"white"}>02 about</Typography>
               </NavLink>
-              <NavLink
-                className={"nav-item"}
-                activeClassName="active"
-                to={"/writing"}
-              >
-                <Typography color={"white"}>03 writing</Typography>
-              </NavLink>
-              <NavLink
-                className={"nav-item"}
-                activeClassName="active"
-                to={"/notes"}
-              >
-                <Typography color={"white"}>04 notes</Typography>
-              </NavLink>
+               
             </Stack>
             <Stack direction={"row"} gap={"10px"}>
               <NavIconCover sx={{ marginLeft: { xs: "0", lg: "30px" } }}>

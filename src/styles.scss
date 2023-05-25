@@ -6,7 +6,7 @@
 }
 a {
   color: white;
-  }
+}
 
 body {
   background-color: #0e141b;
@@ -93,4 +93,19 @@ body {
 .item-3::after {
   background-color: #595aff;
 }
+.dsaas {
+  transition: 0.3s;
+}
 
+.dsaas:hover {
+  cursor: pointer;
+  color: #ff5277 !important;
+}
+.dasdsadaa {
+  background-color: #ff5277;
+  padding: 2px 5px;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 13px !important;
+  border-radius: 20px;
+}

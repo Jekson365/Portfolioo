@@ -13,11 +13,19 @@ export const Hello = () => {
         direction={"column"}
         sx={{ height: { xs: "300px", lg: "430px" } }}
       >
-        <HelloStyles>HELLO, MY NAME IS MAX</HelloStyles>
-        <TitleStyles sx={{ fontSize: { xs: "60px", lg: "100px" } }}>
+        <HelloStyles data-aos="fade-down" data-aos-duration="1000">
+          HELLO, MY NAME IS MAX
+        </HelloStyles>
+        <TitleStyles
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          sx={{ fontSize: { xs: "60px", lg: "100px" } }}
+        >
           I make websites
         </TitleStyles>
         <DescStyles
+          data-aos="fade-down"
+          data-aos-duration="2000"
           sx={{
             fontSize: { xs: "22px", lg: "30px" },
             marginTop: { xs: "0", lg: "30px" },
