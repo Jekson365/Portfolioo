@@ -14,7 +14,7 @@ export const Hello = () => {
         sx={{ height: { xs: "300px", lg: "430px" } }}
       >
         <HelloStyles data-aos="fade-down" data-aos-duration="1000">
-          HELLO, MY NAME IS MAX
+          HELLO, MY NAME IS JEKO
         </HelloStyles>
         <TitleStyles
           data-aos="fade-down"
@@ -31,11 +31,9 @@ export const Hello = () => {
             marginTop: { xs: "0", lg: "30px" },
           }}
         >
-          I’m a front-end developer and co-founder of{" "}
-          <span className="item item-1">Codista</span>, a software studio in
-          Vienna. I also write about the web on my{" "}
-          <span className="item item-2">blog </span>and{" "}
-          <span className="item item-3">elsewhere.</span>
+          {/* <span className="item item-1">Codista</span>, */}
+          I’m a self-taught developer.I started learning in 2020. since then
+          I am trying to learn new things day by day. I am Interested in Back-end developement and graphic deisign.
         </DescStyles>
       </Stack>
     </>

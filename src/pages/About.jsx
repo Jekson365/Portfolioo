@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography, Grid, Stack } from "@mui/material";
 import styled from "@emotion/styled";
+import { Skills } from "../about_comps/Skills";
 
 export const About = () => {
   return (
@@ -19,7 +20,7 @@ export const About = () => {
         <TitleStyles
           data-aos="fade-down"
           data-aos-duration="1500"
-          sx={{ fontSize: { xs: "60px", lg: "100px" } }}
+          sx={{ fontSize: { xs: "30px", lg: "100px" } }}
         >
           I make websites
         </TitleStyles>
@@ -27,7 +28,7 @@ export const About = () => {
           data-aos="fade-down"  
           data-aos-duration="2000"
           sx={{
-            fontSize: { xs: "22px", lg: "30px" },
+            fontSize: { xs: "15px", lg: "30px" },
             marginTop: { xs: "0", lg: "30px" },
           }}
         >
@@ -40,6 +41,7 @@ export const About = () => {
           frameworks such as ReactJS and Bootstrap.
         </DescStyles>
       </Stack>
+      <Skills/>
     </>
   );
 };

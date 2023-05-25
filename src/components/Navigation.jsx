@@ -47,12 +47,8 @@ export const Navigation = () => {
               >
                 <Typography color={"white"}>02 about</Typography>
               </NavLink>
-               
             </Stack>
             <Stack direction={"row"} gap={"10px"}>
-              <NavIconCover sx={{ marginLeft: { xs: "0", lg: "30px" } }}>
-                <FormatPaintIcon />
-              </NavIconCover>
               <NavIconCover sx={{ display: { xs: "flex", lg: "none" } }}>
                 <MenuIcon />
               </NavIconCover>

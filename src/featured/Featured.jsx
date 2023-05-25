@@ -256,10 +256,10 @@ export const Featured = () => {
                     gap={"10px"}
                     sx={{ zIndex: "100" }}
                   >
-                    <Link to={each.demo}>
+                    <Link to={each.demo} target="_blank">
                       <CustomButton>Demo</CustomButton>
                     </Link>
-                    <Link to={each.source}>
+                    <Link to={each.source}  target="_blank">
                       <CustomButton>Source</CustomButton>
                     </Link>
                   </Box>
