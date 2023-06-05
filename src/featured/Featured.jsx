@@ -199,6 +199,20 @@ export const Featured = () => {
         "./assets/bootstrap.png",
       ],
     },
+    {
+      name: "Ecommerce Website",
+      description:
+        "Not completed project",
+      img: "https://uploads-ssl.webflow.com/62cc90f51e0f22934c772848/62ccdad735539c3447129bc4_toa-heftiba-FV3GConVSss-unsplash%20(1)-p-2000.jpeg",
+      demo: "https://647d8f083306803b3a2c999e--teal-crumble-60ba09.netlify.app/",
+      source: "https://github.com/Jekson365/EcommerceWebsite",
+      tools: [
+        "./assets/js.png",
+        "./assets/html.png",
+        "./assets/atom.png",
+        "./assets/bootstrap.png",
+      ],
+    },
   ];
   return (
     <>

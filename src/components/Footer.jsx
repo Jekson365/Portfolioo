@@ -25,17 +25,17 @@ export const Footer = () => {
                         >
                             <Typography>Socials</Typography>
                             <Typography fontWeight={"bold"}>
-                                <Link>Linkedin /</Link>
-                                <Link> Github</Link>
+                                <Link to="https://www.linkedin.com/in/jeko-199730225/" target="_blank">Linkedin /</Link>
+                                <Link to="https://github.com/Jekson365" target="_blank"> Github</Link>
                             </Typography>
                         </Stack>
                     </Stack>
                 </Grid>
                 <Grid item sx={12} sm={6} container>
-                    <Link to="https://www.linkedin.com/in/jeko-199730225/" target="_blank">
+                    <Link to="https://github.com/Jekson365" target="_blank">
                         <GitHubIcon item sx={{ color: "white", fontSize: "40px" }} className="dsaas" />
                     </Link>
-                    <Link to="https://github.com/Jekson365" target="_blank">
+                    <Link to="https://www.linkedin.com/in/jeko-199730225/" target="_blank">
                         <LinkedInIcon item sx={{ color: "white", fontSize: "48px" }} className="dsaas" />
                     </Link>
                 </Grid>
